@@ -17,6 +17,6 @@ spec:
         image: prom/mysqld-exporter:v0.14.0
         env:
         - name: DATA_SOURCE_NAME
-          value: "exporter_user:Aitglobal@007@(mysql-service:3306)/"
+          value: "exporter_user:Aitglobal@007@(mysql:3306)/"
         ports:
         - containerPort: 9104
